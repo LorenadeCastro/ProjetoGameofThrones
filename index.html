@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Projeto HTML e CSS</title>
+
+    <style>
+
+        body {
+            font-family: "arial";
+            background-color: black;
+            background-image: url(GOT\ 4.jpg);
+            background-position-y: -48%;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: 1600px, 8000px;
+            margin: 0px auto;
+            padding: 0px;
+            width: 1000px;
+            
+            }
+
+       nav a {
+        color: red;
+        padding: 10px;
+        }
+
+        nav ul {
+            margin: 15px;
+            padding: 10px;
+        }
+
+        nav li {
+            margin-top: 30px;
+            padding-right: 100px;
+            display: inline-block;
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        nav li:hover {
+            background: white;
+            color: black;
+            -moz-box-shadow: 0 3px 10px 0 white;
+            -webkit-box-shadow: 0 3px 10px 0 red;
+            text-shadow: 0px 0px 5px red;
+            text-align: center;
+            }
+
+        nav a {
+            color: white;
+        }
+            
+       
+        img {            
+           -webkit-mask-image: linear-gradient(to bottom, transparent 5%, white 40%);
+           background-image: url(Projeto\ Game\ of\ Thrones.jpg);
+            }
+
+        
+
+        h1 {
+            color: white;
+            font-family: Segoe script;
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: white;
+            font-size: 18px;
+            margin-bottom: 14px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 14px;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+
+       
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+        <br>   
+
+    <div class="container">
+
+<main>
+    <h1>Bem-vindo(a) ao meu projeto</h1>
+</main>
+
+    <br>
+    <img src="Projeto Game of Thrones.jpg" width="500" height="500" alt="Daenerys Targaryen, Arya Stark, Brienne de Tarth, Jhon Snow e Sor Jorah Mormont.">
+    <figcaption src="Projeto Game of Thrones.jpg"><font color="white"><i>"Daenerys Targaryen, Arya Stark, Brienne de Tarth, Jhon Snow e Sor Jorah Mormont.</i></font></figcaption>
+    <br>
+    
+    <br>
+    
+    <p><b>Este é um exemplo de projeto em HTML e CSS.</b></p>
+    <p>Clique no botão abaixo para iniciar:</p>
+    <a href="#" class="button">Iniciar projeto</a>
+    
+    <br>
+    <br>
+    <br>
+    <p class=link>Confira em nosso <a href="#" style="color: white"><b>site</b></a> as principais informações sobre os personagens em destaque.</p>
+    </div>
+
+<br>
+
+    <footer>
+        <p>&copy; 2023 My website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
